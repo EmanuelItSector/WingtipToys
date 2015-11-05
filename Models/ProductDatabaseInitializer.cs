@@ -14,7 +14,8 @@ namespace WingtipToys.Models
 
         private static List<Category> GetCategories()
         {
-            var categories = new List<Category> {                 new Category 
+            var categories = new List<Category> {                 
+                new Category 
                 { 
                     CategoryID = 1, 
                     CategoryName = "Cars" 
@@ -93,7 +94,8 @@ namespace WingtipToys.Models
                     ImagePath="carracer.png", 
                     UnitPrice = 34.95, 
                     CategoryID = 1 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 6, 
                     ProductName = "Ace Plane", 
@@ -101,7 +103,8 @@ namespace WingtipToys.Models
                     ImagePath="planeace.png", 
                     UnitPrice = 95.00, 
                     CategoryID = 2 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 7, 
                     ProductName = "Glider", 
@@ -109,14 +112,16 @@ namespace WingtipToys.Models
                     ImagePath="planeglider.png", 
                     UnitPrice = 4.95, 
                     CategoryID = 2 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 8, 
                     ProductName = "Paper Plane", 
                     Description = "This paper plane is like no other paper plane. Some folding required.",ImagePath="planepaper.png", 
                     UnitPrice = 2.95, 
                     CategoryID = 2 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 9, 
                     ProductName = "Propeller Plane", 
@@ -124,7 +129,8 @@ namespace WingtipToys.Models
                     ImagePath="planeprop.png", 
                     UnitPrice = 32.95, 
                     CategoryID = 2 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 10, 
                     ProductName = "Early Truck", 
@@ -132,7 +138,8 @@ namespace WingtipToys.Models
                     ImagePath="truckearly.png", 
                     UnitPrice = 15.00, 
                     CategoryID = 3 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 11, 
                     ProductName = "Fire Truck", 
@@ -140,14 +147,16 @@ namespace WingtipToys.Models
                     ImagePath="truckfire.png", 
                     UnitPrice = 26.00, 
                     CategoryID = 3 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 12, 
                     ProductName = "Big Truck", 
                     Description = "This fun toy truck can be used to tow other trucks that are not as big.", 
                     ImagePath="truckbig.png", 
                     UnitPrice = 29.00,CategoryID = 3 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 13, 
                     ProductName = "Big Ship", 
@@ -156,7 +165,8 @@ namespace WingtipToys.Models
                     ImagePath="boatbig.png", 
                     UnitPrice = 95.00, 
                     CategoryID = 4 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 14, 
                     ProductName = "Paper Boat", 
@@ -165,7 +175,8 @@ namespace WingtipToys.Models
                     ImagePath="boatpaper.png", 
                     UnitPrice = 4.95, 
                     CategoryID = 4 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 15, 
                     ProductName = "Sail Boat", 
@@ -173,7 +184,8 @@ namespace WingtipToys.Models
                     ImagePath="boatsail.png", 
                     UnitPrice = 42.95, 
                     CategoryID = 4 
-                },                 new Product 
+                },                 
+                new Product 
                 { 
                     ProductID = 16, 
                     ProductName = "Rocket", 
